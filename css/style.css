@@ -55,15 +55,19 @@ nav {
 }
  #menu {
   line-height: 50px;
-}
-ul #menu > li {
-  text-decoration: none;
-  display: inline-block;
-  float: left;
   text-align: center;
-  padding: 10px 10px;
-  font-size: 17px;
 }
+#menu > li {
+  list-style-type: none;
+  display: inline-block;
+}
+#menu li a {
+  text-decoration: none;
+  margin: 20px;
+  color:white;
+}
+#menu li:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
 /*/ NAVBAR */
 /* MAIN */
