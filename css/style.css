@@ -6,7 +6,7 @@
 
 .clearfix::after {
   content: "";
- display: table;
+ display: table
  clear: both;
 }
 body {
@@ -15,6 +15,7 @@ body {
   background-size: auto;
   background-repeat: repeat;
   background-attachment: scroll;
+  font-family: 'Roboto', sans-serif;
 }
 .container {
   width: 1000px;
@@ -35,6 +36,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+    text-align: center;
     color: white
   }
   .logo-container img {
@@ -42,7 +44,7 @@ body {
   }
   .logo-container h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
   }
 /* /HEADER */
 /* NAVBAR */
@@ -51,14 +53,17 @@ nav {
   width: 100%;
   background: grey;
 }
-ul #menu {
+ #menu {
   line-height: 50px;
-  list-style-type: none;
 }
 ul #menu > li {
   text-decoration: none;
-  list-style: none;
   display: inline-block;
+  float: left;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 17px;
+}
 }
 /*/ NAVBAR */
 /* MAIN */
@@ -115,7 +120,7 @@ footer {
   height: 100px;
   background-color: white;
 }
-.footer-top{
+.footer-top {
   border-bottom: 1px solid gray;
   text-align: center;
 }
@@ -125,7 +130,7 @@ footer {
   padding: 30px 0;
   text-align: center;
 }
-.icon-container > i{
+.icon-container > i {
   font-size: 30px;
   color: lightgray;
   cursor: pointer;
