@@ -9,24 +9,49 @@
  display: table;
  clear: both;
 }
-
+body {
+  background-image: url("../img/pattern.png");
+  background-position: left top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
 .container {
   width: 1000px;
   margin: auto;
   padding: 20px;
   background-color: lightblue;
 }
-
-header {
-  height: 300px;
-  border: 10px solid white;
-  background-color: yellow;
-}
-
+/* HEADER */
+  header {
+    position: relative;
+    height: 300px;
+    border: 10px solid white;
+    background-image: url("../img/forest.jpg");
+    background-position: top;
+    background-size: auto;
+  }
+  .logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white
+  }
+  .logo-container img {
+    height:  170px;
+  }
+  .logo-container h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+/* /HEADER */
+/* NAVBAR */
 nav {
   height: 50px;
   background: green;
 }
+/*/ NAVBAR */
 
 main {
   background-color: gray;
@@ -42,7 +67,7 @@ main > section {
   width: 20%;
   margin: 10px 5% 0 0;
 }
-.articles {
+.right-section {
   float: left;
   width: 20%;
   margin-left: 5%;
@@ -50,9 +75,10 @@ main > section {
 aside {
   background-color: purple;
 }
-.right-section {
+.widget {
   width: 100%;
   margin: 10px 0;
+  background-color: white;
 }
 
 footer {
