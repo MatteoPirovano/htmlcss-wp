@@ -110,12 +110,25 @@ main .right-section {
   background-color: white;
 }
 /* /MAIN */
-
+/* FOOOTER */
 footer {
   height: 100px;
-  background-color: orange;
+  background-color: white;
 }
 .footer-top{
   border-bottom: 1px solid gray;
   text-align: center;
 }
+.icon-container {
+  float: left;
+  width: 33.33%;
+  padding: 30px 0;
+  text-align: center;
+}
+.icon-container {
+  font-size: 30px;
+}
+.icon-container:nth-child(2) {
+  border: 0 1px solid gray;
+}
+/* /FOOOTER */
